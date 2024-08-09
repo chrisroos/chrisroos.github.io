@@ -2,6 +2,7 @@
 layout: post
 title:  "Easily open the same service (e.g. Gmail) in different Firefox containers"
 date:   2024-08-09 12:44:24 +0100
+excerpt: How I use a combination of Firefox Multi-Account Containers, the Containerise extension and URL redirection to easily open the same service (e.g. Gmail) in different Firefox containers.
 ---
 I use [Firefox's Multi-Account Containers extension](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) to allow me to sign in to personal and work accounts for the same service (e.g. Gmail) in different tabs. This works great but is a little cumbersome as I have to open the relevant container before navigating to the service.
 
