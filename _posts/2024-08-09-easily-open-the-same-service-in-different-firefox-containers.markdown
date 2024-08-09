@@ -3,14 +3,16 @@ layout: post
 title:  "Easily open the same service (e.g. Gmail) in different Firefox containers"
 date:   2024-08-09 12:44:24 +0100
 ---
+I use [Firefox's Multi-Account Containers extension](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) to allow me to sign in to personal and work accounts for the same service (e.g. Gmail) in different tabs. This works great but is a little cumbersome as I have to open the relevant container before navigating to the service.
+
+Fortunately we can use the [Containerise](https://addons.mozilla.org/en-US/firefox/addon/containerise) extension and URL redirection to improve this workflow. Containerise allows us to pattern match URLs and open them in specific containers so by generating unique URLs for Personal Gmail and Work Gmail (both redirecting to mail.google.com) we can configure Containerise to open Gmail in the relevant container.
+
+The screencast below shows how this works, or continue reading below the video for the instructions.
+
 <div style="padding:56.25% 0 0 0;position:relative;">
   <iframe src="https://player.vimeo.com/video/996270683?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Easily open the same service (e.g. Gmail) in different Firefox containers"></iframe>
 </div>
 <script src="https://player.vimeo.com/api/player.js"></script>
-
-I use [Firefox's Multi-Account Containers extension](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) to allow me to sign in to personal and work accounts for the same service (e.g. Gmail) in different tabs. This works great but is a little cumbersome as I have to open the relevant container before navigating to the service.
-
-Fortunately we can use the [Containerise](https://addons.mozilla.org/en-US/firefox/addon/containerise) extension and URL redirection to improve this workflow. Containerise allows us to pattern match URLs and open them in specific containers so by generating unique URLs for Personal Gmail and Work Gmail (both redirecting to mail.google.com) we can configure Containerise to open Gmail in the relevant container.
 
 The first step is to use a redirection service (e.g. [TinyURL](https://tinyurl.com/)) to generate distinct URLs that will end up redirecting to mail.google.com.
 
