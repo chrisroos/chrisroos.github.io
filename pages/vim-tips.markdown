@@ -8,3 +8,4 @@ permalink: /vim-tips
 - `bp` - Previous buffer
 - `vs` - Split window vertically
 - `ctrl+w` - Switch window
+- `! rspec %` - Run rspec for the open file
